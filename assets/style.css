@@ -1,0 +1,45 @@
+header{
+    background-color: dodgerblue;
+}
+body{
+    margin: 0;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #BEBEBE;
+    flex-direction: column;
+    flex-basis: 60%;
+    justify-content: center;
+    border: solid black;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+li{
+    list-style: lower-alpha;
+    font-weight: bolder;
+}
+.startBtn{
+    width: 30%;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Timer{
+    text-align: center;
+}
+.hide{
+    display: none;
+}
+.Answers{
+    display: flex;
+    flex-direction: column;
+    width: 30ch;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <title>Quiz</title>
+</head>
+<header>
+    <h1>User: <span id="User"></span>Highscore: <span id="Highscore"></span></h1>
+
+    
+</header>
+<body>
+    <main>
+        <h2>Rules: This is a Quiz game, the rules are very simple, you will be given a question with 4 multiple choice options.  
+            Choose the one you think is correct, if it is then it will add one to your score, if it is wrong you will lose 5 seconds on your time.
+            You are given 30 seconds to complete this quiz, after you win or lose your score will be save and you will be prompted to input your initails. 
+            Below you will see an example question once you hit start the quiz will begin.  Hit the restart button if you wanted to try again mid way through
+            your attempt. Good Luck
+        </h2>
+        <h2 class="Timer" id="Timer">Time Displayed Here</h2>
+        <h2>User Current Score:<span id="CurrentScore"></span></h2>   
+        
+        <div class="box" data-state="hidden">
+            <div class="Questions" id="quest">
+                <h2 id="Questions">Example Question: Is Ryan Reynolds super attractive
+                </h2>
+            </div>
+            <div class="Answers" id="Answers">
+                <input type="text" placeholder="Your initals!" class="hide" id="TextBox">
+                <ul class="list" id="list">
+                <li><button class="Answerclass" id="Answer1" data-boolean="false">Of course.</button></li>
+                <li><button class="Answerclass" id="Answer2" data-boolean="false">Yes.</button></li>
+                <li><button class="Answerclass" id="Answer3" data-boolean="false">Best looking guy I've ever seen.</button></li>
+                <li><button class="Answerclass" id="Answer4" data-boolean="false">An aboslute male adonis chiseled by God himself.</button></li> 
+                </ul>
+            </div>
+            <div class="buttons" d>
+            <button class="Easy" id="Easy">Easy</button> 
+            <button class="startBtn" id="startBtn" data-state="visible">Start</button> 
+            <button class="Hard" id="Hard">Hard</button> 
+            </div>
+        </div>
+    </main>
+    <button class="hide" id="restartBtn">Restart</button>
+    <script src="./script.js"></script>
+</body>
+</html>
