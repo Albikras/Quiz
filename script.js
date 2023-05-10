@@ -36,41 +36,41 @@ var previousScoresArray = JSON.parse(localStorage.getItem("prevScore")) || [];
 var questionsArray = [
   {
     questionAll: "1. Javascript is an _______ language?",
-    answer: "Object-Oriented",
+    answer: "a) Object-Oriented",
     choices: [
-      "Object-Oriented",
-      "Object-Based",
-      "Procedural",
-      "None of the above",
+      "a) Object-Oriented",
+      "b) Object-Based",
+      "c) Procedural",
+      "d) None of the above",
     ],
   },
   {
     questionAll:
       "2. Which of the following keywords is used to define a variable in Jevascript?",
-    answer: "Both A and B",
-    choices: ["var", "let", "Both A and B", "None of the above"],
+    answer: "c) Both A and B",
+    choices: ["a) var", "b) let", "c) Both A and B", "d) None of the above"],
   },
   {
     questionAll: "3. How can a datatype be declared to be a constant type",
-    answer: "const",
-    choices: ["const", "var", "let", "constant"],
+    answer: "a) const",
+    choices: ["a) const", "b) var", "c) let", "d) constant"],
   },
   {
     questionAll:
       "4. When the switch statement matches the expression with the given labels, how is the comparison done?",
-    answer: "Both the datatype and the result of the expression are compared.",
+    answer: "a) Both the datatype and the result of the expression are compared",
     choices: [
-      "Both the datatype and the result of the expression are compared",
-      "Only the datatype of the expression is compared",
-      "Only the value of the expression is compared",
-      "None of the above",
+      "a) Both the datatype and the result of the expression are compared",
+      "b) Only the datatype of the expression is compared",
+      "c) Only the value of the expression is compared",
+      "d) None of the above",
     ],
   },
   {
     questionAll:
       "5. What keyword is used to check whether a given property is valid or not?",
-    answer: "in",
-    choices: ["in", "is in", "exist", "lies"],
+    answer: "a) in",
+    choices: ["a) in", "b) is in", "c)exist", "d) lies"],
   },
 ];
 
