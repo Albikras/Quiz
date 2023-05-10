@@ -45,3 +45,11 @@ SOFTWARE.
 
 ## Links
 
+GitHub: https://github.com/Albikras/Quiz
+Deployed Application: https://albikras.github.io/Quiz/
+
+## Depolyed Application
+
+[Screenshot of deployed application](./assets/images/Fullscreenshot.png)
+
+
