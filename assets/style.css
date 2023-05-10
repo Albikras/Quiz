@@ -1,9 +1,15 @@
+/*add background-color dodge blur to header and text color of white*/
 header{
     background-color: dodgerblue;
+    color: white;
 }
+/*body margin is set to 0*/
 body{
     margin: 0;
 }
+/*class box has a display of flex with flex-wrap of wrap background-color #BEBEBE
+flex-direction column flex-basis 60% jsutify-content set to center witrh a solid black
+border and a top left and bottom right radius of 30px*/
 .box{
     display: flex;
     flex-wrap: wrap;
@@ -15,31 +21,48 @@ body{
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
+/*main tag with a display of lex, justify-content set to center and flex-direction column*/
 main{
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
+/*li with a lsit style of lower-alpha and font weight of bolder*/
 li{
     list-style: lower-alpha;
     font-weight: bolder;
 }
-.startBtn{
-    width: 30%;
-}
+/*class buttons display flex and flex direction of row and jsutify-content to center*/
 .buttons{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+/*class timer text align to center*/
 .Timer{
     text-align: center;
 }
+/*class hide set display to none*/
 .hide{
     display: none;
 }
+/*class Answers display set to flex flex-directions set to column and width of 30ch */
 .Answers{
     display: flex;
     flex-direction: column;
     width: 30ch;
+}
+/*form tag display flex jsutify-content set to center align-self set to center and align-content center*/
+form{   
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+}
+/*class btn width 30ch background-color dodgerblue with text color of whit and font weight of bolder*/
+.btn{
+    width: 30ch;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bolder;
 }
