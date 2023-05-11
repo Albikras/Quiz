@@ -10,10 +10,10 @@ N/A
 
 ## Usage
 
-[display of the start of the browser](./assets/images/Displayimg.png)
-[Showing the browser in action and how it goes fron question to question](./assets/images/Question.png)
-[Showing the submit page and how there is a text box and sumbit button](./assets/images/Submit.png)
-[Showing the leaderboard protion of the browser and how it saves your attempts and that theres a clear button](./assets/images/LeaderBoard.png)
+![display of the start of the browser](./assets/images/Displayimg.png)
+![Showing the browser in action and how it goes fron question to question](./assets/images/Question.png)
+![Showing the submit page and how there is a text box and sumbit button](./assets/images/Submit.png)
+![Showing the leaderboard protion of the browser and how it saves your attempts and that theres a clear button](./assets/images/LeaderBoard.png)
 
 ## Credits
 
@@ -50,6 +50,6 @@ Deployed Application: https://albikras.github.io/Quiz/
 
 ## Depolyed Application
 
-[Screenshot of deployed application](./assets/images/Fullscreenshot.png)
+![Screenshot of deployed application](./assets/images/Fullscreenshot.png)
 
 
